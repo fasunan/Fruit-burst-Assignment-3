@@ -43,20 +43,22 @@
 
 <body>
 
-    <header class="mx-auto py-10 px-40">
+    <header class="mx-auto py-10 ">
         <!-- nav bar section starts here -->
         <div class="navbar rounded-full bg-[#F85559] text-white">
-            <div class="flex-1 gap-10 ml-5">
+            <div class="flex justify-between items-center py-3 px-5 md:hidden">
+                <div>
+            <div class=" hidden md:flex flex-1 gap-10 ml-5">
                 <a href="">Home</a>
                 <a href="">About Us</a>
                 <a href="">Shop</a>
                 <a href="">All fruit</a>
             </div>
-            <div class="mr-20">
+            <div class=" hidden md:block mr-20">
                 <div class="mr-4"><img src="images/logo.png" alt=""></div>
                 <h2 class="text-4xl font-bold">Fruit Burst</h2>
             </div>
-            <div class="flex-none mr-10 gap-2">
+            <div class=" hidden md:flex flex-none mr-10 gap-2">
 
                 <div class=" flex relative">
                     <div><input type="text" placeholder="Search here" class="input rounded-full" /></div>
@@ -73,7 +75,7 @@
 
         <!-- slide section starts here -->
 
-        <section class="container mt-20 relative">
+        <section class="container mt-20 relative flex flex-col md:flex-row justify-around ">
             <div>
                 <div class="carousel w-full">
                     <!-- slider-1 -->
@@ -186,7 +188,7 @@
           <span class="countdown font-mono text-4xl">
             <span style="--value:25;"></span>
           </span>
-          <i class="fa-solid fa-ellipsis-vertical ml-2"></i>
+          
           <br>
           sec
         </div>
@@ -205,7 +207,7 @@
                         <p>Apple</p>
                         <div class="rating">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -229,7 +231,7 @@
                                                 <input type="radio" name="rating-2"
                                                     class="mask mask-star-2 bg-orange-400" />
                                                 <input type="radio" name="rating-2"
-                                                    class="mask mask-star-2 bg-orange-400" checked />
+                                                    class="mask mask-star-2 bg-orange-400" />
                                                 <input type="radio" name="rating-2"
                                                     class="mask mask-star-2 bg-orange-400" />
                                                 <input type="radio" name="rating-2"
@@ -289,7 +291,7 @@
                                                 <input type="radio" name="rating-2"
                                                     class="mask mask-star-2 bg-orange-400" />
                                                 <input type="radio" name="rating-2"
-                                                    class="mask mask-star-2 bg-orange-400" checked />
+                                                    class="mask mask-star-2 bg-orange-400"  />
                                                 <input type="radio" name="rating-2"
                                                     class="mask mask-star-2 bg-orange-400" />
                                                 <input type="radio" name="rating-2"
@@ -326,7 +328,7 @@
                         <p>Dragon</p>
                         <div class="rating">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -350,7 +352,7 @@
                                                 <input type="radio" name="rating-2"
                                                     class="mask mask-star-2 bg-orange-400" />
                                                 <input type="radio" name="rating-2"
-                                                    class="mask mask-star-2 bg-orange-400" checked />
+                                                    class="mask mask-star-2 bg-orange-400"  />
                                                 <input type="radio" name="rating-2"
                                                     class="mask mask-star-2 bg-orange-400" />
                                                 <input type="radio" name="rating-2"
@@ -385,7 +387,7 @@
                         <p>Banana</p>
                         <div class="rating">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -409,7 +411,7 @@
                                                 <input type="radio" name="rating-2"
                                                     class="mask mask-star-2 bg-orange-400" />
                                                 <input type="radio" name="rating-2"
-                                                    class="mask mask-star-2 bg-orange-400" checked />
+                                                    class="mask mask-star-2 bg-orange-400"  />
                                                 <input type="radio" name="rating-2"
                                                     class="mask mask-star-2 bg-orange-400" />
                                                 <input type="radio" name="rating-2"
@@ -541,7 +543,7 @@
                     literature from 45 BC, making it over 2000 years old.</p>
 
             </div>
-            <div class="flex gap-10 mt-10">
+            <div class="flex flex-col md:flex-1 lg:flex-auto gap-10 mt-10">
                 <div>
                     <div class="space-y-5">
                         <div>
